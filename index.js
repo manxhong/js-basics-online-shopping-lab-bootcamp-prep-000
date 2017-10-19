@@ -31,19 +31,19 @@ function viewCart() {
         }
       }
     }
-    switch (cart.length) {
-      case 0:
-          return console.log('Your shopping cart is empty.');
-        break;
-      case 1:
-          return console.log(`In your cart, you have${arr}.`);
-        break;
-      case 2:
-          return console.log(`In your cart, you have${arr[0]}and${arr[1]}.`);
-        break;
-      default:
-          return console.log(`In your cart, you have${arr[0]},${arr[1]} and${arr.slice(2)}.`)
-    }
+  }
+  switch (cart.length) {
+    case 0:
+        return console.log('Your shopping cart is empty.');
+      break;
+    case 1:
+        return console.log(`In your cart, you have${arr}.`);
+      break;
+    case 2:
+        return console.log(`In your cart, you have${arr[0]}and${arr[1]}.`);
+      break;
+    default:
+        return console.log(`In your cart, you have${arr[0]},${arr[1]} and${arr.slice(2)}.`)
   }
 }
 
