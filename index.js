@@ -92,7 +92,7 @@ addToCart('bananas');
 
 
 // console.log(getCart());
-// addToCart('apples');
+addToCart('apples');
 viewCart();
 // placeOrder(81232145);
 // console.log(viewCart());
