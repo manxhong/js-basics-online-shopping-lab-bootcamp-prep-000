@@ -42,7 +42,7 @@ function viewCart() {
           return console.log(`In your cart, you have${arr[1]}and${arr[2]}.`);
         break;
       default:
-          return console.log(`In your cart, you have${arr[1]},${arr[2]}and${[...arr]}.`)
+          return console.log(`In your cart, you have${arr[1]},${arr[2]} and${[...arr]}.`)
     }
   }
 }
