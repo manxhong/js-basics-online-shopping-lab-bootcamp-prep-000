@@ -78,5 +78,5 @@ function placeOrder(cardNumber) {
 addToCart('kale');
 console.log(getCart());
 // addToCart('apples');
-placeOrder(81232145);
+// placeOrder(81232145);
 // console.log(viewCart());
