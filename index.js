@@ -31,7 +31,16 @@ function viewCart() {
         }
       }
     }
-    return console.log(`In your cart, you have${arr}.`);
+    switch (cart.length) {
+      case 1:
+          return console.log(`In your cart, you have${arr}.`);
+        break;
+      case 2:
+          return console.log(`In your cart, you have${arr[1]}and${arr[2]}.`);
+      default:
+        
+    }
+    
   }else{
 
     return console.log('Your shopping cart is empty.');
