@@ -39,10 +39,10 @@ function viewCart() {
           return console.log(`In your cart, you have${arr}.`);
         break;
       case 2:
-          return console.log(`In your cart, you have${arr[1]}and${arr[2]}.`);
+          return console.log(`In your cart, you have${arr[0]}and${arr[1]}.`);
         break;
       default:
-          return console.log(`In your cart, you have${arr[1]},${arr[2]} and${[...arr]}.`)
+          return console.log(`In your cart, you have${arr[0]},${arr[1]} and${arr.slice(2)}.`)
     }
   }
 }
