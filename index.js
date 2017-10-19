@@ -31,7 +31,7 @@ function viewCart() {
         }
       }
     }
-    return console.log(`In your cart, you have${arr}`);
+    return console.log(`In your cart, you have${arr}.`);
   }else{
 
     return console.log('Your shopping cart is empty.');
