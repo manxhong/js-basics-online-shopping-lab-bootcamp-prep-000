@@ -27,7 +27,7 @@ function viewCart() {
     for (var i = 0; i < cart.length; i++) {
       for (var variable in cart[i]) {
         if (cart[i].hasOwnProperty(variable)) {
-            arr.push(` ${variable} at ${cart[i][variable]}`)
+            arr.push(` ${variable} at $${cart[i][variable]}`)
         }
       }
     }
