@@ -84,18 +84,3 @@ function placeOrder(cardNumber) {
 
   cart = [];
 }
-
-
-// addToCart('bananas');
-addToCart('kale');
-addToCart('bananas');
-
-
-// console.log(getCart());
-addToCart('apples');
-addToCart('apple');
-viewCart();
-// placeOrder(81232145);
-// console.log(viewCart());
-//In your cart, you have kale at $38, bananas at $65, and apples at $73.
-//In your cart, you have orange at $43, pear at $14, quince at $77, and rhubarb at $97.
