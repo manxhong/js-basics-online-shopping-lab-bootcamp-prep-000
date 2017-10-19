@@ -15,7 +15,8 @@ function addToCart(item) {
  var newObject = {[item] : randomPrice};
 
  console.log(`${item} has been added to your cart.`);
- return cart.push(newObject);
+ cart.push(newObject);
+ return getCart();
 }
 
 function viewCart() {
