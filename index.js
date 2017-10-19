@@ -43,7 +43,7 @@ function viewCart() {
         return console.log(`In your cart, you have${arr[0]} and${arr[1]}.`);
       break;
     default:
-        return console.log(`In your cart, you have${arr[0]},${arr[1]}, and${arr.slice(2)}.`)
+        return console.log(`In your cart, you have${arr.slice(0,arr.length-1)}, and${arr.slice(2)}.`)
   }
 }
 
@@ -96,3 +96,5 @@ addToCart('apples');
 viewCart();
 // placeOrder(81232145);
 // console.log(viewCart());
+//In your cart, you have kale at $38, bananas at $65, and apples at $73.
+//In your cart, you have orange at $43, pear at $14, quince at $77, and rhubarb at $97.
