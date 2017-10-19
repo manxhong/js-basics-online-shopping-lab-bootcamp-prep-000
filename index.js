@@ -74,7 +74,9 @@ function placeOrder(cardNumber) {
 }
 
 
-addToCart('bananas');
-addToCart('apples');
+// addToCart('bananas');
+addToCart('kale');
+console.log(getCart());
+// addToCart('apples');
 placeOrder(81232145);
 // console.log(viewCart());
