@@ -79,6 +79,7 @@ function placeOrder(cardNumber) {
 
 // addToCart('bananas');
 addToCart('kale');
+viewCart();
 // console.log(getCart());
 // addToCart('apples');
 // placeOrder(81232145);
